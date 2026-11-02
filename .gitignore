@@ -1,0 +1,85 @@
+# ---- Build output ----
+build/
+out/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+cmake-build-*/
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.out
+
+# ---- CMake / Make ----
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+*.make
+*.ninja
+compile_commands.json
+
+# ---- Visual Studio ----
+.vs/
+*.vcxproj.user
+*.sln.docstates
+*.suo
+*.sdf
+*.db
+*.opendb
+*.opensdf
+*.ipch
+*.psess
+*.vsp
+*.vspx
+*.ncb
+*.aps
+*.res
+ipch/
+
+# ---- CLion / JetBrains ----
+.idea/
+*.iml
+*.iws
+*.ipr
+*.hprof
+
+# ---- Visual Studio Code ----
+.vscode/
+*.code-workspace
+
+# ---- Test / coverage ----
+*.gcda
+*.gcno
+*.gcov
+TestResults/
+coverage/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+/cpplib
